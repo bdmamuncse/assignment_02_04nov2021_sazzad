@@ -11,11 +11,30 @@ void main() {
   // myQuestion3Method();
   // print('#######Question_3_Ends_Here#########');
 
-  print('#######Question_4_Starts_Here#########');
-  myQuestion4Method();
-  print('#######Question_4_Ends_Here#########');
+  // print('#######Question_4_Starts_Here#########');
+  // myQuestion4Method();
+  // print('#######Question_4_Ends_Here#########');
+
+  print('#######Question_5_Starts_Here#########');
+  myQuestion5Method();
+  print('#######Question_5_Ends_Here#########');
 
 
+}
+
+//question 5
+void myQuestion5Method(){
+  List<dynamic> myNewList=[1,2,3,4,7,8,[447,15,654,'Flutter'],];
+  print('The Length of my New List Before update:${myNewList.length}');
+  print('The Data without for loop: $myNewList');
+  for(var n=0; n<myNewList.length; n++){
+    print('my data $n is :${myNewList[n]}');
+  }
+
+  print('########read data for in from list');
+  for(var a in myNewList){
+    print(a);
+  }
 }
 
 //question 4

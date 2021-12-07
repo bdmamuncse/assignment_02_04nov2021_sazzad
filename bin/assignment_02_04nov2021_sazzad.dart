@@ -7,11 +7,33 @@ void main() {
   // myQuestion2Method();
   // print('#######Question_2_Ends_Here#########');
 
-  print('#######Question_3_Starts_Here#########');
-  myQuestion3Method();
-  print('#######Question_3_Ends_Here#########');
+  // print('#######Question_3_Starts_Here#########');
+  // myQuestion3Method();
+  // print('#######Question_3_Ends_Here#########');
+
+  print('#######Question_4_Starts_Here#########');
+  myQuestion4Method();
+  print('#######Question_4_Ends_Here#########');
 
 
+}
+
+//question 4
+void myQuestion4Method(){
+  List<dynamic> myNewList=[[1,2,3], {'id':110, 'name':'your name'}, 35.2, [], {}, 1, 'Hello flutter'];
+  print('The Length of my New List Before update:${myNewList.length}');
+  print('The Data before Updating the List: $myNewList');
+
+  var myGeneratedList=[];
+  print('my generated list:$myGeneratedList');
+  myGeneratedList.addAll(myNewList);
+  print('The Length of my New List After update:${myGeneratedList.length}');
+  print('The Data After Updating List: $myGeneratedList');
+  if(myGeneratedList.isEmpty==true){
+    print('No data available');
+  }else {
+    print('congratulations you got some data !!!!');
+  }
 }
 
 //question 3
@@ -48,7 +70,6 @@ void myQuestion2Method(){
   print('Final data is: $myNewList');
 
 }
-
 
 //question 1
 void myQuestion1Method(){

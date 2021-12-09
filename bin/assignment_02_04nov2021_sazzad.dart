@@ -19,10 +19,92 @@ void main() {
   // myQuestion5Method();
   // print('#######Question_5_Ends_Here#########');
 
-  print('#######Question_6_Starts_Here#########');
-  myQuestion6Method();
-  print('#######Question_6_Ends_Here#########');
+  // print('#######Question_6_Starts_Here#########');
+  // myQuestion6Method();
+  // print('#######Question_6_Ends_Here#########');
 
+  // print('#######Question_7_Starts_Here#########');
+  // myQuestion7Method();
+  // print('#######Question_7_Ends_Here#########');
+
+  // print('#######Question_8_Starts_Here#########');
+  // myQuestion8Method();
+  // print('#######Question_8_Ends_Here#########');
+
+  // print('#######Question_9_Starts_Here#########');
+  // myQuestion9Method();
+  // print('#######Question_9_Ends_Here#########');
+
+  print('#######Question_10_Starts_Here#########');
+  myQuestion10Method();
+  print('#######Question_10_Ends_Here#########');
+
+
+}
+
+//question 10
+void myQuestion10Method(){
+  List<dynamic> myNewList=['Samir', 'Manik', 'Sazzad', 'Masuma', 'Anik', 'Zunaid'];
+  print('my data before deletion: $myNewList');
+  try{
+    // myNewList.removeAt(2);
+    myNewList.removeRange(0, 3);
+    print('data deleted');
+    print('my data after deletion: $myNewList');
+  }catch(e){
+    print('please use a valid range');
+  }
+
+}
+
+//question 9
+void myQuestion9Method(){
+  List<dynamic> myNewList=['Samir', 'Manik', 'Sazzad', 'Masuma', 'Anik', 'Zunaid'];
+  print('my data before deletion: $myNewList');
+  try{
+   // myNewList.removeAt(2);
+    myNewList.removeRange(0, 3);
+    print('data deleted');
+    print('my data after deletion: $myNewList');
+    }catch(e){
+   print('please use a valid range');
+  }
+
+}
+
+//question 8
+void myQuestion8Method(){
+  var myValue=1;
+  switch(myValue){
+    case 1:{
+      print('1 is found');
+      break;
+    }
+    case 2:{
+      print('2 is found');
+      break;
+    }
+    default:{
+      print('no data found');
+      break;
+    }
+  }
+
+}
+
+//question 7
+void myQuestion7Method(){
+  List<dynamic> myNewList=[];
+  myNewList.add(2);
+  myNewList.add(67);
+  print('values after adding: $myNewList');
+  if(myNewList[0]==2){
+    print('my value correctly inserted');
+  } else if(myNewList[1]==66) {
+    print('this is also correct');
+  } else {
+    print('value not found');
+  }
 
 }
 

@@ -15,11 +15,30 @@ void main() {
   // myQuestion4Method();
   // print('#######Question_4_Ends_Here#########');
 
-  print('#######Question_5_Starts_Here#########');
-  myQuestion5Method();
-  print('#######Question_5_Ends_Here#########');
+  // print('#######Question_5_Starts_Here#########');
+  // myQuestion5Method();
+  // print('#######Question_5_Ends_Here#########');
+
+  print('#######Question_6_Starts_Here#########');
+  myQuestion6Method();
+  print('#######Question_6_Ends_Here#########');
 
 
+}
+
+//question 6
+void myQuestion6Method(){
+  List<dynamic> myNewList=['Samir', 'Manik', 'Sazzad', 'Masuma', 'Anik', 'Zunaid'];
+
+  myNewList.forEach((element) {
+    // print(element);
+    if(element=='Sazzad'){
+      var a=myNewList.indexOf(element);
+      print('my expected data: $element');
+      print('and the index is $a ');
+    }
+
+  });
 }
 
 //question 5

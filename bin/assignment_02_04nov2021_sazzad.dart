@@ -1,39 +1,39 @@
 void main() {
-  // print('#######Question_1_Starts_Here#########');
-  // myQuestion1Method();
-  // print('#######Question_1_Ends_Here#########');
+  print('#######Question_1_Starts_Here#########');
+  myQuestion1Method();
+  print('#######Question_1_Ends_Here#########');
 
-  // print('#######Question_2_Starts_Here#########');
-  // myQuestion2Method();
-  // print('#######Question_2_Ends_Here#########');
+  print('#######Question_2_Starts_Here#########');
+  myQuestion2Method();
+  print('#######Question_2_Ends_Here#########');
 
-  // print('#######Question_3_Starts_Here#########');
-  // myQuestion3Method();
-  // print('#######Question_3_Ends_Here#########');
+  print('#######Question_3_Starts_Here#########');
+  myQuestion3Method();
+  print('#######Question_3_Ends_Here#########');
 
-  // print('#######Question_4_Starts_Here#########');
-  // myQuestion4Method();
-  // print('#######Question_4_Ends_Here#########');
+  print('#######Question_4_Starts_Here#########');
+  myQuestion4Method();
+  print('#######Question_4_Ends_Here#########');
 
-  // print('#######Question_5_Starts_Here#########');
-  // myQuestion5Method();
-  // print('#######Question_5_Ends_Here#########');
+  print('#######Question_5_Starts_Here#########');
+  myQuestion5Method();
+  print('#######Question_5_Ends_Here#########');
 
-  // print('#######Question_6_Starts_Here#########');
-  // myQuestion6Method();
-  // print('#######Question_6_Ends_Here#########');
+  print('#######Question_6_Starts_Here#########');
+  myQuestion6Method();
+  print('#######Question_6_Ends_Here#########');
 
-  // print('#######Question_7_Starts_Here#########');
-  // myQuestion7Method();
-  // print('#######Question_7_Ends_Here#########');
+  print('#######Question_7_Starts_Here#########');
+  myQuestion7Method();
+  print('#######Question_7_Ends_Here#########');
 
-  // print('#######Question_8_Starts_Here#########');
-  // myQuestion8Method();
-  // print('#######Question_8_Ends_Here#########');
+  print('#######Question_8_Starts_Here#########');
+  myQuestion8Method();
+  print('#######Question_8_Ends_Here#########');
 
-  // print('#######Question_9_Starts_Here#########');
-  // myQuestion9Method();
-  // print('#######Question_9_Ends_Here#########');
+  print('#######Question_9_Starts_Here#########');
+  myQuestion9Method();
+  print('#######Question_9_Ends_Here#########');
 
   print('#######Question_10_Starts_Here#########');
   myQuestion10Method();
@@ -44,17 +44,27 @@ void main() {
 
 //question 10
 void myQuestion10Method(){
-  List<dynamic> myNewList=['Samir', 'Manik', 'Sazzad', 'Masuma', 'Anik', 'Zunaid'];
-  print('my data before deletion: $myNewList');
-  try{
-    // myNewList.removeAt(2);
-    myNewList.removeRange(0, 3);
-    print('data deleted');
-    print('my data after deletion: $myNewList');
-  }catch(e){
-    print('please use a valid range');
-  }
+  int a=4;
+  double b=3.5;
+  String c='2345666';
 
+  double bb=double.parse(c);
+  String cc=b.toString() ;
+  String aa=a.toString() ;
+
+  print('integer is $a , double data is $b , String data is $c');
+  print('after conversion: String to double is $bb, Double to String data is $cc, Integer to String data is $aa');
+  print('______print_Heterogeneous_list');
+  List<dynamic> myNewList=[];
+  print('my heterogeneous list before data insert: $myNewList');
+  myNewList.add(a);
+  myNewList.add(aa);
+  myNewList.add(b);
+  myNewList.add(bb);
+  myNewList.add(c);
+  myNewList.add(cc);
+  print(myNewList);
+  print('my heterogeneous list after data insert: $myNewList');
 }
 
 //question 9
